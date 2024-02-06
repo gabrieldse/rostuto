@@ -1,0 +1,23 @@
+[1.434s] Invoking command in '/home/ubuntu/dev_ws/build/py_pkg': PYTHONPATH=/home/ubuntu/dev_ws/build/py_pkg/prefix_override:/home/ubuntu/dev_ws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/dev_ws/build/py_pkg/build --no-deps install_data
+[1.863s] running develop
+[1.864s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.865s]   warnings.warn(
+[1.867s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.867s]   warnings.warn(
+[2.139s] running egg_info
+[2.140s] writing py_pkg.egg-info/PKG-INFO
+[2.140s] writing dependency_links to py_pkg.egg-info/dependency_links.txt
+[2.141s] writing entry points to py_pkg.egg-info/entry_points.txt
+[2.141s] writing requirements to py_pkg.egg-info/requires.txt
+[2.141s] writing top-level names to py_pkg.egg-info/top_level.txt
+[2.144s] reading manifest file 'py_pkg.egg-info/SOURCES.txt'
+[2.147s] writing manifest file 'py_pkg.egg-info/SOURCES.txt'
+[2.149s] running build_ext
+[2.149s] Creating /home/ubuntu/dev_ws/install/py_pkg/lib/python3.10/site-packages/py-pkg.egg-link (link to .)
+[2.151s] Installing py_node script to /home/ubuntu/dev_ws/install/py_pkg/lib/py_pkg
+[2.151s] Installing robot script to /home/ubuntu/dev_ws/install/py_pkg/lib/py_pkg
+[2.151s] Installing sub script to /home/ubuntu/dev_ws/install/py_pkg/lib/py_pkg
+[2.152s] 
+[2.152s] Installed /home/ubuntu/dev_ws/build/py_pkg
+[2.152s] running install_data
+[2.195s] Invoked command in '/home/ubuntu/dev_ws/build/py_pkg' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/build/py_pkg/prefix_override:/home/ubuntu/dev_ws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/dev_ws/build/py_pkg/build --no-deps install_data
