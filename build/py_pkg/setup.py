@@ -1,1 +1,0 @@
-/home/ubuntu/dev_ws/src/py_pkg/setup.py

@@ -1,6 +1,0 @@
-[console_scripts]
-control_turtle = py_pkg.control_turtle:main
-py_node = py_pkg.node1:main
-robot = py_pkg.robot:main
-sub = py_pkg.subs:main
-
