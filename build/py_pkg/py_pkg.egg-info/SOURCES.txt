@@ -8,7 +8,11 @@ setup.py
 ../../build/py_pkg/py_pkg.egg-info/requires.txt
 ../../build/py_pkg/py_pkg.egg-info/top_level.txt
 ../../build/py_pkg/py_pkg.egg-info/zip-safe
+launch/my_2roues.launch.py
+launch/my_2roues_sim.launch.py
+launch/test.launch.py
 py_pkg/__init__.py
+py_pkg/control_turtle.py
 py_pkg/node1.py
 py_pkg/robot.py
 py_pkg/subs.py
@@ -20,3 +24,8 @@ py_pkg.egg-info/requires.txt
 py_pkg.egg-info/top_level.txt
 py_pkg.egg-info/zip-safe
 resource/py_pkg
+urdf/inertial.xacro
+urdf/material.xacro
+urdf/my_2roues-gazebo.xacro
+urdf/my_2roues.urdf.xacro
+urdf/rob1.xml

@@ -1,4 +1,7 @@
 from setuptools import find_packages, setup
+# launch imports
+import subprocess, os, platform
+from glob import glob
 
 package_name = 'py_pkg'
 
@@ -10,6 +13,11 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share',package_name,'launch'),
+        glob('launch/*.py')),
+        (os.path.join('share',package_name,'urdf'),
+        glob('urdf/*'))
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -22,7 +30,8 @@ setup(
     	'console_scripts': [
 	"py_node = py_pkg.node1:main",
     "robot = py_pkg.robot:main",
-    "sub = py_pkg.subs:main"
+    "sub = py_pkg.subs:main",
+    "control_turtle = py_pkg.control_turtle:main"
     ],
 	},
 )

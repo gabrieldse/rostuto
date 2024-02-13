@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot name="rob1">
+
+<link name="corps">
+    <visual>
+        <geometry>
+            <box size="0.20 0.16 0.01"/>   	       
+        </geometry>
+        <origin rpy="0 0 0" xyz="-0.10 0 0"/>
+    </visual>
+</link>
+
+<joint name="R1" type="continuous">
+    	<origin rpy="1.57 0 0" xyz="0 0.09 0"/>
+    	<axis xyz="0 1 0"/>
+    	<parent link="corps"/>
+    	<child link="roue1"/>
+</joint>
+</robot>
+
+
