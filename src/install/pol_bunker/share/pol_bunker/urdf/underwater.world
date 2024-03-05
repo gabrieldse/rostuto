@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+
+<!-- https://github.com/uuvsimulator/uuv_simulator/wiki/Making-your-seabed-world-model -->
+  
+  <world name="example_underwater">
+    <!-- <include>
+      <uri>model://cohoma1</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include> -->
+
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='ground'>
+        <collision name='collision'>
+          <geometry>
+            <plane >
+              <xyz>0 0 -1</xyz>
+
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+      </link>
+    </model>
+
+
+  </world>
+
+</sdf>

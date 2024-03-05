@@ -1,0 +1,57 @@
+running egg_info
+creating ../build/pol_bunker/pol_bunker.egg-info
+writing ../build/pol_bunker/pol_bunker.egg-info/PKG-INFO
+writing dependency_links to ../build/pol_bunker/pol_bunker.egg-info/dependency_links.txt
+writing entry points to ../build/pol_bunker/pol_bunker.egg-info/entry_points.txt
+writing requirements to ../build/pol_bunker/pol_bunker.egg-info/requires.txt
+writing top-level names to ../build/pol_bunker/pol_bunker.egg-info/top_level.txt
+writing manifest file '../build/pol_bunker/pol_bunker.egg-info/SOURCES.txt'
+reading manifest file '../build/pol_bunker/pol_bunker.egg-info/SOURCES.txt'
+writing manifest file '../build/pol_bunker/pol_bunker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/dev_ws/src/build/pol_bunker/build
+creating /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib
+creating /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker
+copying pol_bunker/__init__.py -> /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker
+copying pol_bunker/cv_sub.py -> /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker
+running install
+running install_lib
+creating /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker
+copying /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker/__init__.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker
+copying /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker/cv_sub.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker
+byte-compiling /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker/cv_sub.py to cv_sub.cpython-310.pyc
+running install_data
+creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index
+creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index/resource_index
+creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index/resource_index/packages
+copying resource/pol_bunker -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index/resource_index/packages
+creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/launch
+copying launch/pol_bunker.launch.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/launch
+copying launch/bunker-sim.launch.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/launch
+copying package.xml -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker
+creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/my_bunker.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/inertial.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/macro-d435.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/macro-imu.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/test.world -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/macro-roue.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/cohoma.world -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/material.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/macro-gps.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+copying urdf/underwater.world -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/meshes
+copying meshes/BUNKER.stl -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/meshes
+creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models
+creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1
+copying models/cohoma1/model.config -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1
+copying models/cohoma1/model.sdf -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1
+copying models/cohoma1/seabed.stl -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1
+running install_egg_info
+Copying ../build/pol_bunker/pol_bunker.egg-info to /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gotogps_bunker script to /home/ubuntu/dev_ws/src/install/pol_bunker/lib/pol_bunker
+Installing node_bno055 script to /home/ubuntu/dev_ws/src/install/pol_bunker/lib/pol_bunker
+writing list of installed files to '/home/ubuntu/dev_ws/src/build/pol_bunker/install.log'

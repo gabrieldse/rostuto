@@ -1,0 +1,4 @@
+[console_scripts]
+gotogps_bunker = pol_bunker.gotogps_bunker:main
+node_bno055 = pol_bunker.node_bno055:main
+

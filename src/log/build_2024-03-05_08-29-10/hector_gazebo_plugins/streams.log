@@ -1,0 +1,123 @@
+[0.215s] Invoking command in '/home/ubuntu/dev_ws/src/build/hector_gazebo_plugins': CMAKE_PREFIX_PATH=/home/ubuntu/dev_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/ubuntu/dev_ws/src/hector_gazebo-humble-devel/hector_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/src/install/hector_gazebo_plugins
+[0.576s] -- The C compiler identification is GNU 11.4.0
+[0.698s] -- The CXX compiler identification is GNU 11.4.0
+[0.954s] -- Detecting C compiler ABI info
+[1.100s] -- Detecting C compiler ABI info - done
+[1.108s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.108s] -- Detecting C compile features
+[1.108s] -- Detecting C compile features - done
+[1.111s] -- Detecting CXX compiler ABI info
+[1.283s] -- Detecting CXX compiler ABI info - done
+[1.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.297s] -- Detecting CXX compile features
+[1.297s] -- Detecting CXX compile features - done
+[1.300s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.463s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.555s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.694s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.699s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.708s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.810s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.813s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.691s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.639s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.779s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.792s] -- Looking for pthread.h
+[5.973s] -- Looking for pthread.h - found
+[5.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.177s] -- Found Threads: TRUE  
+[6.445s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[6.500s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[6.517s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.518s] -- Checking for module 'bullet>=2.82'
+[6.534s] --   Found bullet, version 3.05
+[6.737s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[6.814s] -- Found assimp: /usr/include (found version "5.2.0") 
+[6.849s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[6.908s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[7.488s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[7.495s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.504s] -- Searching for dependencies of ignition-math6
+[7.507s] -- Looking for OGRE...
+[7.507s] -- OGRE_PREFIX_WATCH changed.
+[7.516s] -- Checking for module 'OGRE'
+[7.534s] --   Found OGRE, version 1.9.0
+[7.579s] -- Found Ogre Ghadamon (1.9.0)
+[8.158s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.177s] -- Looking for OGRE_Paging...
+[8.695s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.695s] -- Looking for OGRE_Terrain...
+[9.113s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[9.113s] -- Looking for OGRE_Property...
+[9.574s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[9.574s] -- Looking for OGRE_RTShaderSystem...
+[9.976s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[9.976s] -- Looking for OGRE_Volume...
+[10.424s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[10.424s] -- Looking for OGRE_Overlay...
+[10.864s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[30.312s] -- Looking for ignition-math6 -- found version 6.15.1
+[30.315s] -- Looking for ignition-transport8 -- found version 8.2.1
+[30.316s] -- Searching for dependencies of ignition-transport8
+[31.651s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[32.945s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[32.951s] -- Checking for module 'libzmq >= 4'
+[32.967s] --   Found libzmq , version 4.3.4
+[33.009s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[33.058s] -- Checking for module 'uuid'
+[33.072s] --   Found uuid, version 2.37.2
+[33.109s] -- Found UUID: TRUE  
+[33.112s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[33.113s] -- Searching for dependencies of ignition-msgs5
+[34.273s] -- Looking for ignition-math6 -- found version 6.15.1
+[34.280s] -- Checking for module 'tinyxml2'
+[34.296s] --   Found tinyxml2, version 9.0.0
+[34.338s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[34.341s] -- Looking for ignition-common3 -- found version 3.14.0
+[34.342s] -- Searching for dependencies of ignition-common3
+[34.380s] -- Looking for dlfcn.h - found
+[34.412s] -- Looking for libdl - found
+[34.414s] -- Found DL: TRUE  
+[34.497s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[34.498s] -- Searching for <ignition-common3> component [graphics]
+[34.501s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[34.501s] -- Searching for dependencies of ignition-common3-graphics
+[34.502s] -- Looking for ignition-math6 -- found version 6.15.1
+[34.505s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[34.506s] -- Searching for dependencies of ignition-fuel_tools4
+[35.724s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[35.735s] -- Checking for module 'jsoncpp'
+[35.750s] --   Found jsoncpp, version 1.9.5
+[35.788s] -- Found JSONCPP: TRUE  
+[35.796s] -- Checking for module 'libzip'
+[35.811s] --   Found libzip, version 1.7.3
+[35.849s] -- Found ZIP: TRUE  
+[35.849s] -- Looking for ignition-common3 -- found version 3.14.0
+[35.850s] -- Looking for ignition-math6 -- found version 6.15.1
+[35.850s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[35.855s] -- Gazebo version: 11.10
+[35.855s] -- Checking for module 'tbb'
+[35.871s] --   Found tbb, version 2021.5.0
+[37.603s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[37.603s]   By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this
+[37.603s]   project has asked CMake to find a package configuration file provided by
+[37.603s]   "geographic_msgs", but CMake did not find one.
+[37.603s] 
+[37.603s]   Could not find a package configuration file provided by "geographic_msgs"
+[37.603s]   with any of the following names:
+[37.603s] 
+[37.604s]     geographic_msgsConfig.cmake
+[37.604s]     geographic_msgs-config.cmake
+[37.604s] 
+[37.604s]   Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or
+[37.604s]   set "geographic_msgs_DIR" to a directory containing one of the above files.
+[37.604s]   If "geographic_msgs" provides a separate development package or SDK, be
+[37.604s]   sure it has been installed.
+[37.604s] 
+[37.604s] [0m
+[37.604s] -- Configuring incomplete, errors occurred!
+[37.604s] See also "/home/ubuntu/dev_ws/src/build/hector_gazebo_plugins/CMakeFiles/CMakeOutput.log".
+[37.622s] Invoked command in '/home/ubuntu/dev_ws/src/build/hector_gazebo_plugins' returned '1': CMAKE_PREFIX_PATH=/home/ubuntu/dev_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/ubuntu/dev_ws/src/hector_gazebo-humble-devel/hector_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/src/install/hector_gazebo_plugins

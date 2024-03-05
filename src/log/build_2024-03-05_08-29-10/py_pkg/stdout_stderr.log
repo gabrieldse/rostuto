@@ -1,0 +1,59 @@
+running egg_info
+creating ../build/py_pkg/py_pkg.egg-info
+writing ../build/py_pkg/py_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/py_pkg/py_pkg.egg-info/entry_points.txt
+writing requirements to ../build/py_pkg/py_pkg.egg-info/requires.txt
+writing top-level names to ../build/py_pkg/py_pkg.egg-info/top_level.txt
+writing manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/dev_ws/src/build/py_pkg/build
+creating /home/ubuntu/dev_ws/src/build/py_pkg/build/lib
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+creating /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg
+copying py_pkg/__init__.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg
+copying py_pkg/robot.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg
+copying py_pkg/control_turtle.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg
+copying py_pkg/subs.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg
+copying py_pkg/node1.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg
+running install
+running install_lib
+creating /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/robot.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/control_turtle.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/subs.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/node1.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg
+byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/robot.py to robot.cpython-310.pyc
+byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/control_turtle.py to control_turtle.cpython-310.pyc
+byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/subs.py to subs.cpython-310.pyc
+byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/node1.py to node1.cpython-310.pyc
+running install_data
+creating /home/ubuntu/dev_ws/src/install/py_pkg/share/ament_index
+creating /home/ubuntu/dev_ws/src/install/py_pkg/share/ament_index/resource_index
+creating /home/ubuntu/dev_ws/src/install/py_pkg/share/ament_index/resource_index/packages
+copying resource/py_pkg -> /home/ubuntu/dev_ws/src/install/py_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg
+creating /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/launch
+copying launch/test.launch.py -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/launch
+copying launch/my_2roues_sim.launch.py -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/launch
+copying launch/my_2roues.launch.py -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/launch
+creating /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf
+copying urdf/rob1.xml -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf
+copying urdf/my_2roues.urdf.xacro -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf
+copying urdf/inertial.xacro -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf
+copying urdf/material.xacro -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf
+copying urdf/my_2roues-gazebo.xacro -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf
+running install_egg_info
+Copying ../build/py_pkg/py_pkg.egg-info to /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_turtle script to /home/ubuntu/dev_ws/src/install/py_pkg/lib/py_pkg
+Installing py_node script to /home/ubuntu/dev_ws/src/install/py_pkg/lib/py_pkg
+Installing robot script to /home/ubuntu/dev_ws/src/install/py_pkg/lib/py_pkg
+Installing sub script to /home/ubuntu/dev_ws/src/install/py_pkg/lib/py_pkg
+writing list of installed files to '/home/ubuntu/dev_ws/src/build/py_pkg/install.log'

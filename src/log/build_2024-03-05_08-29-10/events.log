@@ -1,0 +1,634 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (hector_gazebo_plugins) JobQueued: {'identifier': 'hector_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.000311] (pol_bunker) JobQueued: {'identifier': 'pol_bunker', 'dependencies': OrderedDict()}
+[0.001749] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.001848] (hector_gazebo_worlds) JobQueued: {'identifier': 'hector_gazebo_worlds', 'dependencies': OrderedDict([('hector_gazebo_plugins', '/home/ubuntu/dev_ws/src/install/hector_gazebo_plugins')])}
+[0.001875] (hector_gazebo) JobQueued: {'identifier': 'hector_gazebo', 'dependencies': OrderedDict([('hector_gazebo_plugins', '/home/ubuntu/dev_ws/src/install/hector_gazebo_plugins'), ('hector_gazebo_worlds', '/home/ubuntu/dev_ws/src/install/hector_gazebo_worlds')])}
+[0.001925] (hector_gazebo_plugins) JobStarted: {'identifier': 'hector_gazebo_plugins'}
+[0.059728] (pol_bunker) JobStarted: {'identifier': 'pol_bunker'}
+[0.099500] (-) TimerEvent: {}
+[0.134949] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.199686] (-) TimerEvent: {}
+[0.215312] (hector_gazebo_plugins) JobProgress: {'identifier': 'hector_gazebo_plugins', 'progress': 'cmake'}
+[0.215835] (hector_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/dev_ws/src/hector_gazebo-humble-devel/hector_gazebo_plugins', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/src/install/hector_gazebo_plugins'], 'cwd': '/home/ubuntu/dev_ws/src/build/hector_gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/dev_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('NAME', 'DESKTOP-PDOT4RD'), ('WSL_INTEROP', '/run/WSL/377_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Gabriel/AppData/Local/Microsoft/WindowsApps:/mnt/c/ProgramData/anaconda3/Library/bin/conda.bat:/mnt/c/ProgramData/anaconda3/Scripts/conda.exe:/mnt/c/ProgramData/anaconda3/condabin/conda.bat:/mnt/c/ProgramData/anaconda3/:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('WT_SESSION', '5482a54e-6d1e-4494-867e-9a01e638db59'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dev_ws/src/build/hector_gazebo_plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dev_ws/install/py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.299829] (-) TimerEvent: {}
+[0.400232] (-) TimerEvent: {}
+[0.500695] (-) TimerEvent: {}
+[0.575751] (hector_gazebo_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.600843] (-) TimerEvent: {}
+[0.700197] (hector_gazebo_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.700949] (-) TimerEvent: {}
+[0.801280] (-) TimerEvent: {}
+[0.901733] (-) TimerEvent: {}
+[0.955341] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001843] (-) TimerEvent: {}
+[1.101529] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.101937] (-) TimerEvent: {}
+[1.109224] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.109531] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.109892] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.112775] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.202079] (-) TimerEvent: {}
+[1.277257] (pol_bunker) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/pol_bunker', 'build', '--build-base', '/home/ubuntu/dev_ws/src/build/pol_bunker/build', 'install', '--record', '/home/ubuntu/dev_ws/src/build/pol_bunker/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/dev_ws/src/pol_bunker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/dev_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'NAME': 'DESKTOP-PDOT4RD', 'WSL_INTEROP': '/run/WSL/377_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Gabriel/AppData/Local/Microsoft/WindowsApps:/mnt/c/ProgramData/anaconda3/Library/bin/conda.bat:/mnt/c/ProgramData/anaconda3/Scripts/conda.exe:/mnt/c/ProgramData/anaconda3/condabin/conda.bat:/mnt/c/ProgramData/anaconda3/:/mnt/c/msys64/ucrt64/bin:/snap/bin', 'WT_SESSION': '5482a54e-6d1e-4494-867e-9a01e638db59', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/dev_ws/install/py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/dev_ws/src/build/pol_bunker', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/dev_ws/src/build/pol_bunker/prefix_override:/home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages:/home/ubuntu/dev_ws/install/py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.283592] (py_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/py_pkg', 'build', '--build-base', '/home/ubuntu/dev_ws/src/build/py_pkg/build', 'install', '--record', '/home/ubuntu/dev_ws/src/build/py_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/dev_ws/src/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/dev_ws', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', 'NAME': 'DESKTOP-PDOT4RD', 'WSL_INTEROP': '/run/WSL/377_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506/tools/bin/:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Gabriel/AppData/Local/Microsoft/WindowsApps:/mnt/c/ProgramData/anaconda3/Library/bin/conda.bat:/mnt/c/ProgramData/anaconda3/Scripts/conda.exe:/mnt/c/ProgramData/anaconda3/condabin/conda.bat:/mnt/c/ProgramData/anaconda3/:/mnt/c/msys64/ucrt64/bin:/snap/bin', 'WT_SESSION': '5482a54e-6d1e-4494-867e-9a01e638db59', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/dev_ws/install/py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/dev_ws/src/build/py_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/dev_ws/src/build/py_pkg/prefix_override:/home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages:/home/ubuntu/dev_ws/install/py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.284587] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.298115] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.298480] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.299228] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.302306] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.302483] (-) TimerEvent: {}
+[1.402796] (-) TimerEvent: {}
+[1.464707] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.502939] (-) TimerEvent: {}
+[1.528953] (pol_bunker) StdoutLine: {'line': b'running egg_info\n'}
+[1.529611] (pol_bunker) StdoutLine: {'line': b'creating ../build/pol_bunker/pol_bunker.egg-info\n'}
+[1.529960] (pol_bunker) StdoutLine: {'line': b'writing ../build/pol_bunker/pol_bunker.egg-info/PKG-INFO\n'}
+[1.530293] (pol_bunker) StdoutLine: {'line': b'writing dependency_links to ../build/pol_bunker/pol_bunker.egg-info/dependency_links.txt\n'}
+[1.530543] (pol_bunker) StdoutLine: {'line': b'writing entry points to ../build/pol_bunker/pol_bunker.egg-info/entry_points.txt\n'}
+[1.530868] (pol_bunker) StdoutLine: {'line': b'writing requirements to ../build/pol_bunker/pol_bunker.egg-info/requires.txt\n'}
+[1.531096] (pol_bunker) StdoutLine: {'line': b'writing top-level names to ../build/pol_bunker/pol_bunker.egg-info/top_level.txt\n'}
+[1.531530] (pol_bunker) StdoutLine: {'line': b"writing manifest file '../build/pol_bunker/pol_bunker.egg-info/SOURCES.txt'\n"}
+[1.531669] (py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.532367] (py_pkg) StdoutLine: {'line': b'creating ../build/py_pkg/py_pkg.egg-info\n'}
+[1.532735] (py_pkg) StdoutLine: {'line': b'writing ../build/py_pkg/py_pkg.egg-info/PKG-INFO\n'}
+[1.533031] (py_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/py_pkg/py_pkg.egg-info/dependency_links.txt\n'}
+[1.533244] (py_pkg) StdoutLine: {'line': b'writing entry points to ../build/py_pkg/py_pkg.egg-info/entry_points.txt\n'}
+[1.533407] (py_pkg) StdoutLine: {'line': b'writing requirements to ../build/py_pkg/py_pkg.egg-info/requires.txt\n'}
+[1.533771] (pol_bunker) StdoutLine: {'line': b"reading manifest file '../build/pol_bunker/pol_bunker.egg-info/SOURCES.txt'\n"}
+[1.533925] (py_pkg) StdoutLine: {'line': b'writing top-level names to ../build/py_pkg/py_pkg.egg-info/top_level.txt\n'}
+[1.533991] (py_pkg) StdoutLine: {'line': b"writing manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[1.534403] (pol_bunker) StdoutLine: {'line': b"writing manifest file '../build/pol_bunker/pol_bunker.egg-info/SOURCES.txt'\n"}
+[1.534693] (pol_bunker) StdoutLine: {'line': b'running build\n'}
+[1.535074] (pol_bunker) StdoutLine: {'line': b'running build_py\n'}
+[1.535373] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/build/pol_bunker/build\n'}
+[1.535828] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib\n'}
+[1.536044] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker\n'}
+[1.536314] (pol_bunker) StdoutLine: {'line': b'copying pol_bunker/__init__.py -> /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker\n'}
+[1.536786] (pol_bunker) StdoutLine: {'line': b'copying pol_bunker/cv_sub.py -> /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker\n'}
+[1.537015] (py_pkg) StdoutLine: {'line': b"reading manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[1.537243] (pol_bunker) StdoutLine: {'line': b'running install\n'}
+[1.537646] (pol_bunker) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.537964] (pol_bunker) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.538223] (pol_bunker) StdoutLine: {'line': b'running install_lib\n'}
+[1.538449] (py_pkg) StdoutLine: {'line': b"writing manifest file '../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[1.538670] (py_pkg) StdoutLine: {'line': b'running build\n'}
+[1.538890] (py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.539107] (py_pkg) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/build/py_pkg/build\n'}
+[1.539323] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker\n'}
+[1.539849] (py_pkg) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/build/py_pkg/build/lib\n'}
+[1.540073] (py_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.540526] (py_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.540785] (pol_bunker) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker/__init__.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker\n'}
+[1.541034] (pol_bunker) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker/cv_sub.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker\n'}
+[1.541251] (pol_bunker) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker/__init__.py to __init__.cpython-310.pyc\n'}
+[1.541491] (pol_bunker) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker/cv_sub.py to cv_sub.cpython-310.pyc\n'}
+[1.541727] (pol_bunker) StdoutLine: {'line': b'running install_data\n'}
+[1.541965] (py_pkg) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg\n'}
+[1.542206] (py_pkg) StdoutLine: {'line': b'copying py_pkg/__init__.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg\n'}
+[1.542462] (py_pkg) StdoutLine: {'line': b'copying py_pkg/robot.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg\n'}
+[1.542698] (py_pkg) StdoutLine: {'line': b'copying py_pkg/control_turtle.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg\n'}
+[1.542929] (py_pkg) StdoutLine: {'line': b'copying py_pkg/subs.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg\n'}
+[1.543161] (py_pkg) StdoutLine: {'line': b'copying py_pkg/node1.py -> /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg\n'}
+[1.543398] (py_pkg) StdoutLine: {'line': b'running install\n'}
+[1.543852] (py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.544076] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index\n'}
+[1.544300] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index/resource_index\n'}
+[1.544517] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index/resource_index/packages\n'}
+[1.544796] (pol_bunker) StdoutLine: {'line': b'copying resource/pol_bunker -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index/resource_index/packages\n'}
+[1.545036] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/launch\n'}
+[1.545258] (pol_bunker) StdoutLine: {'line': b'copying launch/pol_bunker.launch.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/launch\n'}
+[1.545476] (pol_bunker) StdoutLine: {'line': b'copying launch/bunker-sim.launch.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/launch\n'}
+[1.545697] (pol_bunker) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker\n'}
+[1.545916] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.546135] (pol_bunker) StdoutLine: {'line': b'copying urdf/my_bunker.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.546351] (pol_bunker) StdoutLine: {'line': b'copying urdf/inertial.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.546567] (pol_bunker) StdoutLine: {'line': b'copying urdf/macro-d435.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.546788] (pol_bunker) StdoutLine: {'line': b'copying urdf/macro-imu.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.547006] (pol_bunker) StdoutLine: {'line': b'copying urdf/test.world -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.547545] (pol_bunker) StdoutLine: {'line': b'copying urdf/macro-roue.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.547746] (pol_bunker) StdoutLine: {'line': b'copying urdf/cohoma.world -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.547963] (pol_bunker) StdoutLine: {'line': b'copying urdf/material.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.548178] (pol_bunker) StdoutLine: {'line': b'copying urdf/macro-gps.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.548394] (pol_bunker) StdoutLine: {'line': b'copying urdf/underwater.world -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf\n'}
+[1.548610] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/meshes\n'}
+[1.548826] (pol_bunker) StdoutLine: {'line': b'copying meshes/BUNKER.stl -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/meshes\n'}
+[1.549043] (py_pkg) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[1.549242] (py_pkg) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[1.549341] (py_pkg) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/robot.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[1.549434] (py_pkg) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/control_turtle.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[1.549526] (py_pkg) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/subs.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[1.549685] (py_pkg) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/build/py_pkg/build/lib/py_pkg/node1.py -> /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[1.549903] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.550121] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/robot.py to robot.cpython-310.pyc\n'}
+[1.550338] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/control_turtle.py to control_turtle.cpython-310.pyc\n'}
+[1.550561] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/subs.py to subs.cpython-310.pyc\n'}
+[1.550778] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg/node1.py to node1.cpython-310.pyc\n'}
+[1.550995] (py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.551371] (py_pkg) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/py_pkg/share/ament_index\n'}
+[1.551497] (py_pkg) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/py_pkg/share/ament_index/resource_index\n'}
+[1.551593] (py_pkg) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[1.551685] (py_pkg) StdoutLine: {'line': b'copying resource/py_pkg -> /home/ubuntu/dev_ws/src/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[1.551784] (py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg\n'}
+[1.551879] (py_pkg) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/launch\n'}
+[1.551969] (py_pkg) StdoutLine: {'line': b'copying launch/test.launch.py -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/launch\n'}
+[1.552061] (py_pkg) StdoutLine: {'line': b'copying launch/my_2roues_sim.launch.py -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/launch\n'}
+[1.552153] (py_pkg) StdoutLine: {'line': b'copying launch/my_2roues.launch.py -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/launch\n'}
+[1.552246] (py_pkg) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf\n'}
+[1.552337] (py_pkg) StdoutLine: {'line': b'copying urdf/rob1.xml -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf\n'}
+[1.552429] (py_pkg) StdoutLine: {'line': b'copying urdf/my_2roues.urdf.xacro -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf\n'}
+[1.552550] (py_pkg) StdoutLine: {'line': b'copying urdf/inertial.xacro -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf\n'}
+[1.552660] (py_pkg) StdoutLine: {'line': b'copying urdf/material.xacro -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf\n'}
+[1.552764] (py_pkg) StdoutLine: {'line': b'copying urdf/my_2roues-gazebo.xacro -> /home/ubuntu/dev_ws/src/install/py_pkg/share/py_pkg/urdf\n'}
+[1.552860] (py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.552953] (py_pkg) StdoutLine: {'line': b'Copying ../build/py_pkg/py_pkg.egg-info to /home/ubuntu/dev_ws/src/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info\n'}
+[1.553064] (py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.556892] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.559147] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models\n'}
+[1.559405] (pol_bunker) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1\n'}
+[1.559649] (pol_bunker) StdoutLine: {'line': b'copying models/cohoma1/model.config -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1\n'}
+[1.559912] (pol_bunker) StdoutLine: {'line': b'copying models/cohoma1/model.sdf -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1\n'}
+[1.560160] (pol_bunker) StdoutLine: {'line': b'copying models/cohoma1/seabed.stl -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1\n'}
+[1.571212] (pol_bunker) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.573021] (pol_bunker) StdoutLine: {'line': b'Copying ../build/pol_bunker/pol_bunker.egg-info to /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker-0.0.0-py3.10.egg-info\n'}
+[1.573932] (pol_bunker) StdoutLine: {'line': b'running install_scripts\n'}
+[1.574175] (py_pkg) StdoutLine: {'line': b'Installing control_turtle script to /home/ubuntu/dev_ws/src/install/py_pkg/lib/py_pkg\n'}
+[1.574431] (py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/ubuntu/dev_ws/src/install/py_pkg/lib/py_pkg\n'}
+[1.574628] (py_pkg) StdoutLine: {'line': b'Installing robot script to /home/ubuntu/dev_ws/src/install/py_pkg/lib/py_pkg\n'}
+[1.574810] (py_pkg) StdoutLine: {'line': b'Installing sub script to /home/ubuntu/dev_ws/src/install/py_pkg/lib/py_pkg\n'}
+[1.575097] (py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/dev_ws/src/build/py_pkg/install.log'\n"}
+[1.595834] (pol_bunker) StdoutLine: {'line': b'Installing gotogps_bunker script to /home/ubuntu/dev_ws/src/install/pol_bunker/lib/pol_bunker\n'}
+[1.596228] (pol_bunker) StdoutLine: {'line': b'Installing node_bno055 script to /home/ubuntu/dev_ws/src/install/pol_bunker/lib/pol_bunker\n'}
+[1.596662] (pol_bunker) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/dev_ws/src/build/pol_bunker/install.log'\n"}
+[1.601584] (py_pkg) CommandEnded: {'returncode': 0}
+[1.603126] (-) TimerEvent: {}
+[1.654396] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 0}
+[1.656792] (pol_bunker) CommandEnded: {'returncode': 0}
+[1.696051] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.700693] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.703238] (-) TimerEvent: {}
+[1.705992] (pol_bunker) JobEnded: {'identifier': 'pol_bunker', 'rc': 0}
+[1.709709] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.722751] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.742349] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.803436] (-) TimerEvent: {}
+[1.812025] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.814827] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.903563] (-) TimerEvent: {}
+[2.003971] (-) TimerEvent: {}
+[2.104413] (-) TimerEvent: {}
+[2.204795] (-) TimerEvent: {}
+[2.305219] (-) TimerEvent: {}
+[2.405650] (-) TimerEvent: {}
+[2.506107] (-) TimerEvent: {}
+[2.606469] (-) TimerEvent: {}
+[2.692456] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.706602] (-) TimerEvent: {}
+[2.807021] (-) TimerEvent: {}
+[2.907392] (-) TimerEvent: {}
+[3.007864] (-) TimerEvent: {}
+[3.108248] (-) TimerEvent: {}
+[3.208683] (-) TimerEvent: {}
+[3.309039] (-) TimerEvent: {}
+[3.409461] (-) TimerEvent: {}
+[3.509818] (-) TimerEvent: {}
+[3.610259] (-) TimerEvent: {}
+[3.641081] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.710435] (-) TimerEvent: {}
+[3.810865] (-) TimerEvent: {}
+[3.911321] (-) TimerEvent: {}
+[4.011783] (-) TimerEvent: {}
+[4.112240] (-) TimerEvent: {}
+[4.212727] (-) TimerEvent: {}
+[4.313275] (-) TimerEvent: {}
+[4.413802] (-) TimerEvent: {}
+[4.514295] (-) TimerEvent: {}
+[4.614773] (-) TimerEvent: {}
+[4.715342] (-) TimerEvent: {}
+[4.815838] (-) TimerEvent: {}
+[4.916289] (-) TimerEvent: {}
+[5.016735] (-) TimerEvent: {}
+[5.117181] (-) TimerEvent: {}
+[5.217669] (-) TimerEvent: {}
+[5.318145] (-) TimerEvent: {}
+[5.418610] (-) TimerEvent: {}
+[5.519048] (-) TimerEvent: {}
+[5.619509] (-) TimerEvent: {}
+[5.719946] (-) TimerEvent: {}
+[5.780967] (hector_gazebo_plugins) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.793740] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.820153] (-) TimerEvent: {}
+[5.920561] (-) TimerEvent: {}
+[5.974840] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.975792] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.020748] (-) TimerEvent: {}
+[6.121207] (-) TimerEvent: {}
+[6.177189] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.178646] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.221397] (-) TimerEvent: {}
+[6.321885] (-) TimerEvent: {}
+[6.422391] (-) TimerEvent: {}
+[6.446643] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[6.501794] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[6.518534] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[6.519984] (hector_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[6.522558] (-) TimerEvent: {}
+[6.535834] (hector_gazebo_plugins) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[6.622767] (-) TimerEvent: {}
+[6.723289] (-) TimerEvent: {}
+[6.738299] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[6.815223] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[6.823461] (-) TimerEvent: {}
+[6.850915] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[6.909568] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[6.923721] (-) TimerEvent: {}
+[7.024267] (-) TimerEvent: {}
+[7.124795] (-) TimerEvent: {}
+[7.225391] (-) TimerEvent: {}
+[7.325931] (-) TimerEvent: {}
+[7.426583] (-) TimerEvent: {}
+[7.489446] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[7.496902] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.506196] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[7.508377] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[7.509161] (hector_gazebo_plugins) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[7.517451] (hector_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[7.526782] (-) TimerEvent: {}
+[7.535678] (hector_gazebo_plugins) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[7.581048] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[7.626975] (-) TimerEvent: {}
+[7.727465] (-) TimerEvent: {}
+[7.827974] (-) TimerEvent: {}
+[7.928530] (-) TimerEvent: {}
+[8.029167] (-) TimerEvent: {}
+[8.129768] (-) TimerEvent: {}
+[8.159233] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.178963] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.229953] (-) TimerEvent: {}
+[8.330449] (-) TimerEvent: {}
+[8.430949] (-) TimerEvent: {}
+[8.531619] (-) TimerEvent: {}
+[8.632120] (-) TimerEvent: {}
+[8.696545] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[8.696957] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[8.732284] (-) TimerEvent: {}
+[8.832861] (-) TimerEvent: {}
+[8.933346] (-) TimerEvent: {}
+[9.033867] (-) TimerEvent: {}
+[9.114878] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[9.115313] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[9.134019] (-) TimerEvent: {}
+[9.234582] (-) TimerEvent: {}
+[9.335219] (-) TimerEvent: {}
+[9.435712] (-) TimerEvent: {}
+[9.536159] (-) TimerEvent: {}
+[9.576030] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[9.576361] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[9.636297] (-) TimerEvent: {}
+[9.736789] (-) TimerEvent: {}
+[9.837468] (-) TimerEvent: {}
+[9.937905] (-) TimerEvent: {}
+[9.977800] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[9.978093] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[10.038045] (-) TimerEvent: {}
+[10.138504] (-) TimerEvent: {}
+[10.239049] (-) TimerEvent: {}
+[10.339644] (-) TimerEvent: {}
+[10.425602] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[10.425887] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[10.439767] (-) TimerEvent: {}
+[10.540145] (-) TimerEvent: {}
+[10.640621] (-) TimerEvent: {}
+[10.741087] (-) TimerEvent: {}
+[10.841544] (-) TimerEvent: {}
+[10.865841] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[10.941685] (-) TimerEvent: {}
+[11.042159] (-) TimerEvent: {}
+[11.142618] (-) TimerEvent: {}
+[11.243068] (-) TimerEvent: {}
+[11.343503] (-) TimerEvent: {}
+[11.443935] (-) TimerEvent: {}
+[11.544427] (-) TimerEvent: {}
+[11.644897] (-) TimerEvent: {}
+[11.745397] (-) TimerEvent: {}
+[11.845844] (-) TimerEvent: {}
+[11.946366] (-) TimerEvent: {}
+[12.046918] (-) TimerEvent: {}
+[12.147354] (-) TimerEvent: {}
+[12.247801] (-) TimerEvent: {}
+[12.348269] (-) TimerEvent: {}
+[12.448736] (-) TimerEvent: {}
+[12.549183] (-) TimerEvent: {}
+[12.649813] (-) TimerEvent: {}
+[12.750262] (-) TimerEvent: {}
+[12.850697] (-) TimerEvent: {}
+[12.951138] (-) TimerEvent: {}
+[13.051623] (-) TimerEvent: {}
+[13.152064] (-) TimerEvent: {}
+[13.252567] (-) TimerEvent: {}
+[13.352992] (-) TimerEvent: {}
+[13.453454] (-) TimerEvent: {}
+[13.553876] (-) TimerEvent: {}
+[13.654319] (-) TimerEvent: {}
+[13.754751] (-) TimerEvent: {}
+[13.855301] (-) TimerEvent: {}
+[13.955788] (-) TimerEvent: {}
+[14.056230] (-) TimerEvent: {}
+[14.156724] (-) TimerEvent: {}
+[14.257207] (-) TimerEvent: {}
+[14.357675] (-) TimerEvent: {}
+[14.458260] (-) TimerEvent: {}
+[14.558685] (-) TimerEvent: {}
+[14.659230] (-) TimerEvent: {}
+[14.759671] (-) TimerEvent: {}
+[14.860193] (-) TimerEvent: {}
+[14.960846] (-) TimerEvent: {}
+[15.061371] (-) TimerEvent: {}
+[15.161894] (-) TimerEvent: {}
+[15.262410] (-) TimerEvent: {}
+[15.362950] (-) TimerEvent: {}
+[15.463442] (-) TimerEvent: {}
+[15.563952] (-) TimerEvent: {}
+[15.664408] (-) TimerEvent: {}
+[15.764907] (-) TimerEvent: {}
+[15.865431] (-) TimerEvent: {}
+[15.965896] (-) TimerEvent: {}
+[16.066327] (-) TimerEvent: {}
+[16.166816] (-) TimerEvent: {}
+[16.267325] (-) TimerEvent: {}
+[16.367793] (-) TimerEvent: {}
+[16.468233] (-) TimerEvent: {}
+[16.568654] (-) TimerEvent: {}
+[16.669079] (-) TimerEvent: {}
+[16.769494] (-) TimerEvent: {}
+[16.870058] (-) TimerEvent: {}
+[16.970498] (-) TimerEvent: {}
+[17.071005] (-) TimerEvent: {}
+[17.171423] (-) TimerEvent: {}
+[17.271903] (-) TimerEvent: {}
+[17.372344] (-) TimerEvent: {}
+[17.472749] (-) TimerEvent: {}
+[17.573200] (-) TimerEvent: {}
+[17.673665] (-) TimerEvent: {}
+[17.774067] (-) TimerEvent: {}
+[17.874498] (-) TimerEvent: {}
+[17.975143] (-) TimerEvent: {}
+[18.075577] (-) TimerEvent: {}
+[18.176009] (-) TimerEvent: {}
+[18.276465] (-) TimerEvent: {}
+[18.376929] (-) TimerEvent: {}
+[18.477433] (-) TimerEvent: {}
+[18.577976] (-) TimerEvent: {}
+[18.678585] (-) TimerEvent: {}
+[18.779130] (-) TimerEvent: {}
+[18.879736] (-) TimerEvent: {}
+[18.980337] (-) TimerEvent: {}
+[19.081215] (-) TimerEvent: {}
+[19.181688] (-) TimerEvent: {}
+[19.282177] (-) TimerEvent: {}
+[19.382650] (-) TimerEvent: {}
+[19.483195] (-) TimerEvent: {}
+[19.583631] (-) TimerEvent: {}
+[19.684116] (-) TimerEvent: {}
+[19.784772] (-) TimerEvent: {}
+[19.885308] (-) TimerEvent: {}
+[19.985776] (-) TimerEvent: {}
+[20.086220] (-) TimerEvent: {}
+[20.186649] (-) TimerEvent: {}
+[20.287084] (-) TimerEvent: {}
+[20.387507] (-) TimerEvent: {}
+[20.487938] (-) TimerEvent: {}
+[20.588409] (-) TimerEvent: {}
+[20.688823] (-) TimerEvent: {}
+[20.789339] (-) TimerEvent: {}
+[20.889778] (-) TimerEvent: {}
+[20.990219] (-) TimerEvent: {}
+[21.090644] (-) TimerEvent: {}
+[21.191071] (-) TimerEvent: {}
+[21.291592] (-) TimerEvent: {}
+[21.392062] (-) TimerEvent: {}
+[21.492511] (-) TimerEvent: {}
+[21.592916] (-) TimerEvent: {}
+[21.693334] (-) TimerEvent: {}
+[21.793801] (-) TimerEvent: {}
+[21.894307] (-) TimerEvent: {}
+[21.994755] (-) TimerEvent: {}
+[22.095230] (-) TimerEvent: {}
+[22.195703] (-) TimerEvent: {}
+[22.296206] (-) TimerEvent: {}
+[22.396659] (-) TimerEvent: {}
+[22.497150] (-) TimerEvent: {}
+[22.597583] (-) TimerEvent: {}
+[22.698138] (-) TimerEvent: {}
+[22.798651] (-) TimerEvent: {}
+[22.899142] (-) TimerEvent: {}
+[22.999639] (-) TimerEvent: {}
+[23.100135] (-) TimerEvent: {}
+[23.200676] (-) TimerEvent: {}
+[23.301204] (-) TimerEvent: {}
+[23.401654] (-) TimerEvent: {}
+[23.502106] (-) TimerEvent: {}
+[23.602587] (-) TimerEvent: {}
+[23.703027] (-) TimerEvent: {}
+[23.803526] (-) TimerEvent: {}
+[23.903965] (-) TimerEvent: {}
+[24.004428] (-) TimerEvent: {}
+[24.104907] (-) TimerEvent: {}
+[24.205371] (-) TimerEvent: {}
+[24.305868] (-) TimerEvent: {}
+[24.406352] (-) TimerEvent: {}
+[24.506785] (-) TimerEvent: {}
+[24.607226] (-) TimerEvent: {}
+[24.707660] (-) TimerEvent: {}
+[24.808110] (-) TimerEvent: {}
+[24.908541] (-) TimerEvent: {}
+[25.008942] (-) TimerEvent: {}
+[25.109335] (-) TimerEvent: {}
+[25.209727] (-) TimerEvent: {}
+[25.310159] (-) TimerEvent: {}
+[25.410691] (-) TimerEvent: {}
+[25.511095] (-) TimerEvent: {}
+[25.611560] (-) TimerEvent: {}
+[25.712027] (-) TimerEvent: {}
+[25.812491] (-) TimerEvent: {}
+[25.912919] (-) TimerEvent: {}
+[26.013454] (-) TimerEvent: {}
+[26.113926] (-) TimerEvent: {}
+[26.214376] (-) TimerEvent: {}
+[26.314849] (-) TimerEvent: {}
+[26.415367] (-) TimerEvent: {}
+[26.643271] (-) TimerEvent: {}
+[26.743855] (-) TimerEvent: {}
+[26.844387] (-) TimerEvent: {}
+[26.944958] (-) TimerEvent: {}
+[27.045472] (-) TimerEvent: {}
+[27.145957] (-) TimerEvent: {}
+[27.246407] (-) TimerEvent: {}
+[27.346843] (-) TimerEvent: {}
+[27.447318] (-) TimerEvent: {}
+[27.547772] (-) TimerEvent: {}
+[27.648211] (-) TimerEvent: {}
+[27.748688] (-) TimerEvent: {}
+[27.849131] (-) TimerEvent: {}
+[27.949706] (-) TimerEvent: {}
+[28.050198] (-) TimerEvent: {}
+[28.150660] (-) TimerEvent: {}
+[28.251140] (-) TimerEvent: {}
+[28.351612] (-) TimerEvent: {}
+[28.452045] (-) TimerEvent: {}
+[28.552519] (-) TimerEvent: {}
+[28.652926] (-) TimerEvent: {}
+[28.753358] (-) TimerEvent: {}
+[28.853851] (-) TimerEvent: {}
+[28.954465] (-) TimerEvent: {}
+[29.054894] (-) TimerEvent: {}
+[29.155360] (-) TimerEvent: {}
+[29.255789] (-) TimerEvent: {}
+[29.356212] (-) TimerEvent: {}
+[29.456701] (-) TimerEvent: {}
+[29.557139] (-) TimerEvent: {}
+[29.657678] (-) TimerEvent: {}
+[29.758144] (-) TimerEvent: {}
+[29.858575] (-) TimerEvent: {}
+[29.959153] (-) TimerEvent: {}
+[30.059641] (-) TimerEvent: {}
+[30.160148] (-) TimerEvent: {}
+[30.260729] (-) TimerEvent: {}
+[30.313783] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[30.316961] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[30.317660] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[30.360945] (-) TimerEvent: {}
+[30.461530] (-) TimerEvent: {}
+[30.562007] (-) TimerEvent: {}
+[30.662491] (-) TimerEvent: {}
+[30.762972] (-) TimerEvent: {}
+[30.863437] (-) TimerEvent: {}
+[30.963984] (-) TimerEvent: {}
+[31.064447] (-) TimerEvent: {}
+[31.164874] (-) TimerEvent: {}
+[31.284183] (-) TimerEvent: {}
+[31.384722] (-) TimerEvent: {}
+[31.485397] (-) TimerEvent: {}
+[31.585948] (-) TimerEvent: {}
+[31.652308] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[31.686117] (-) TimerEvent: {}
+[31.786596] (-) TimerEvent: {}
+[31.887039] (-) TimerEvent: {}
+[31.987547] (-) TimerEvent: {}
+[32.088024] (-) TimerEvent: {}
+[32.188533] (-) TimerEvent: {}
+[32.288969] (-) TimerEvent: {}
+[32.389463] (-) TimerEvent: {}
+[32.489978] (-) TimerEvent: {}
+[32.590434] (-) TimerEvent: {}
+[32.690914] (-) TimerEvent: {}
+[32.791432] (-) TimerEvent: {}
+[32.891909] (-) TimerEvent: {}
+[32.946334] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[32.953185] (hector_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[32.968569] (hector_gazebo_plugins) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[32.992118] (-) TimerEvent: {}
+[33.011075] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[33.059735] (hector_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[33.073961] (hector_gazebo_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[33.092309] (-) TimerEvent: {}
+[33.111007] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[33.113855] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[33.114584] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[33.192489] (-) TimerEvent: {}
+[33.292923] (-) TimerEvent: {}
+[33.393407] (-) TimerEvent: {}
+[33.493841] (-) TimerEvent: {}
+[33.594279] (-) TimerEvent: {}
+[33.694713] (-) TimerEvent: {}
+[33.795268] (-) TimerEvent: {}
+[33.895819] (-) TimerEvent: {}
+[33.996311] (-) TimerEvent: {}
+[34.096800] (-) TimerEvent: {}
+[34.197324] (-) TimerEvent: {}
+[34.274419] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[34.281334] (hector_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[34.297278] (hector_gazebo_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[34.297561] (-) TimerEvent: {}
+[34.340171] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[34.342884] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[34.343632] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[34.381484] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[34.397694] (-) TimerEvent: {}
+[34.413876] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[34.415826] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[34.497927] (-) TimerEvent: {}
+[34.498933] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[34.499756] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[34.502336] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[34.503008] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[34.503536] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[34.506915] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[34.507533] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[34.598130] (-) TimerEvent: {}
+[34.698682] (-) TimerEvent: {}
+[34.799311] (-) TimerEvent: {}
+[34.899782] (-) TimerEvent: {}
+[35.000268] (-) TimerEvent: {}
+[35.100745] (-) TimerEvent: {}
+[35.201210] (-) TimerEvent: {}
+[35.301759] (-) TimerEvent: {}
+[35.402221] (-) TimerEvent: {}
+[35.502707] (-) TimerEvent: {}
+[35.603238] (-) TimerEvent: {}
+[35.703698] (-) TimerEvent: {}
+[35.725584] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[35.737058] (hector_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[35.751955] (hector_gazebo_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[35.790090] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[35.797349] (hector_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[35.803882] (-) TimerEvent: {}
+[35.813212] (hector_gazebo_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[35.850275] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[35.850873] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[35.851535] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[35.852270] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[35.856916] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[35.857312] (hector_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[35.872519] (hector_gazebo_plugins) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[35.904095] (-) TimerEvent: {}
+[36.004575] (-) TimerEvent: {}
+[36.105353] (-) TimerEvent: {}
+[36.206011] (-) TimerEvent: {}
+[36.306742] (-) TimerEvent: {}
+[36.407304] (-) TimerEvent: {}
+[36.507985] (-) TimerEvent: {}
+[36.608668] (-) TimerEvent: {}
+[36.709286] (-) TimerEvent: {}
+[36.809920] (-) TimerEvent: {}
+[36.910546] (-) TimerEvent: {}
+[37.011280] (-) TimerEvent: {}
+[37.111863] (-) TimerEvent: {}
+[37.212396] (-) TimerEvent: {}
+[37.312915] (-) TimerEvent: {}
+[37.413434] (-) TimerEvent: {}
+[37.513915] (-) TimerEvent: {}
+[37.604412] (hector_gazebo_plugins) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:24 (find_package):\n'}
+[37.604709] (hector_gazebo_plugins) StderrLine: {'line': b'  By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[37.604823] (hector_gazebo_plugins) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[37.604921] (hector_gazebo_plugins) StderrLine: {'line': b'  "geographic_msgs", but CMake did not find one.\n'}
+[37.605095] (hector_gazebo_plugins) StderrLine: {'line': b'\n'}
+[37.605195] (hector_gazebo_plugins) StderrLine: {'line': b'  Could not find a package configuration file provided by "geographic_msgs"\n'}
+[37.605286] (hector_gazebo_plugins) StderrLine: {'line': b'  with any of the following names:\n'}
+[37.605374] (hector_gazebo_plugins) StderrLine: {'line': b'\n'}
+[37.605459] (hector_gazebo_plugins) StderrLine: {'line': b'    geographic_msgsConfig.cmake\n'}
+[37.605546] (hector_gazebo_plugins) StderrLine: {'line': b'    geographic_msgs-config.cmake\n'}
+[37.605632] (hector_gazebo_plugins) StderrLine: {'line': b'\n'}
+[37.605718] (hector_gazebo_plugins) StderrLine: {'line': b'  Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or\n'}
+[37.605803] (hector_gazebo_plugins) StderrLine: {'line': b'  set "geographic_msgs_DIR" to a directory containing one of the above files.\n'}
+[37.605888] (hector_gazebo_plugins) StderrLine: {'line': b'  If "geographic_msgs" provides a separate development package or SDK, be\n'}
+[37.605973] (hector_gazebo_plugins) StderrLine: {'line': b'  sure it has been installed.\n'}
+[37.606056] (hector_gazebo_plugins) StderrLine: {'line': b'\n'}
+[37.606150] (hector_gazebo_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[37.606234] (hector_gazebo_plugins) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[37.606330] (hector_gazebo_plugins) StdoutLine: {'line': b'See also "/home/ubuntu/dev_ws/src/build/hector_gazebo_plugins/CMakeFiles/CMakeOutput.log".\n'}
+[37.614111] (-) TimerEvent: {}
+[37.623517] (hector_gazebo_plugins) CommandEnded: {'returncode': 1}
+[37.689804] (hector_gazebo_plugins) JobEnded: {'identifier': 'hector_gazebo_plugins', 'rc': 1}
+[37.700833] (hector_gazebo_worlds) JobSkipped: {'identifier': 'hector_gazebo_worlds'}
+[37.700942] (hector_gazebo) JobSkipped: {'identifier': 'hector_gazebo'}
+[37.701014] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+source;share/pol_bunker/hook/pythonpath.ps1
+source;share/pol_bunker/hook/pythonpath.dsv
+source;share/pol_bunker/hook/pythonpath.sh
+source;share/pol_bunker/hook/ament_prefix_path.ps1
+source;share/pol_bunker/hook/ament_prefix_path.dsv
+source;share/pol_bunker/hook/ament_prefix_path.sh

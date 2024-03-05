@@ -1,0 +1,61 @@
+[1.224s] Invoking command in '/home/ubuntu/dev_ws/src/pol_bunker': PYTHONPATH=/home/ubuntu/dev_ws/src/build/pol_bunker/prefix_override:/home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pol_bunker build --build-base /home/ubuntu/dev_ws/src/build/pol_bunker/build install --record /home/ubuntu/dev_ws/src/build/pol_bunker/install.log --single-version-externally-managed
+[1.469s] running egg_info
+[1.470s] creating ../build/pol_bunker/pol_bunker.egg-info
+[1.470s] writing ../build/pol_bunker/pol_bunker.egg-info/PKG-INFO
+[1.471s] writing dependency_links to ../build/pol_bunker/pol_bunker.egg-info/dependency_links.txt
+[1.471s] writing entry points to ../build/pol_bunker/pol_bunker.egg-info/entry_points.txt
+[1.471s] writing requirements to ../build/pol_bunker/pol_bunker.egg-info/requires.txt
+[1.471s] writing top-level names to ../build/pol_bunker/pol_bunker.egg-info/top_level.txt
+[1.472s] writing manifest file '../build/pol_bunker/pol_bunker.egg-info/SOURCES.txt'
+[1.474s] reading manifest file '../build/pol_bunker/pol_bunker.egg-info/SOURCES.txt'
+[1.475s] writing manifest file '../build/pol_bunker/pol_bunker.egg-info/SOURCES.txt'
+[1.475s] running build
+[1.475s] running build_py
+[1.476s] creating /home/ubuntu/dev_ws/src/build/pol_bunker/build
+[1.476s] creating /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib
+[1.476s] creating /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker
+[1.477s] copying pol_bunker/__init__.py -> /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker
+[1.477s] copying pol_bunker/cv_sub.py -> /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker
+[1.478s] running install
+[1.478s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.478s]   warnings.warn(
+[1.479s] running install_lib
+[1.480s] creating /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker
+[1.481s] copying /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker/__init__.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker
+[1.481s] copying /home/ubuntu/dev_ws/src/build/pol_bunker/build/lib/pol_bunker/cv_sub.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker
+[1.482s] byte-compiling /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker/__init__.py to __init__.cpython-310.pyc
+[1.482s] byte-compiling /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker/cv_sub.py to cv_sub.cpython-310.pyc
+[1.482s] running install_data
+[1.484s] creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index
+[1.485s] creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index/resource_index
+[1.485s] creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index/resource_index/packages
+[1.485s] copying resource/pol_bunker -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/ament_index/resource_index/packages
+[1.485s] creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/launch
+[1.486s] copying launch/pol_bunker.launch.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/launch
+[1.486s] copying launch/bunker-sim.launch.py -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/launch
+[1.486s] copying package.xml -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker
+[1.486s] creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.487s] copying urdf/my_bunker.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.487s] copying urdf/inertial.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.487s] copying urdf/macro-d435.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.487s] copying urdf/macro-imu.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.487s] copying urdf/test.world -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.488s] copying urdf/macro-roue.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.488s] copying urdf/cohoma.world -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.488s] copying urdf/material.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.489s] copying urdf/macro-gps.xacro -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.489s] copying urdf/underwater.world -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/urdf
+[1.489s] creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/meshes
+[1.489s] copying meshes/BUNKER.stl -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/meshes
+[1.499s] creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models
+[1.500s] creating /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1
+[1.500s] copying models/cohoma1/model.config -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1
+[1.500s] copying models/cohoma1/model.sdf -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1
+[1.500s] copying models/cohoma1/seabed.stl -> /home/ubuntu/dev_ws/src/install/pol_bunker/share/pol_bunker/models/cohoma1
+[1.512s] running install_egg_info
+[1.513s] Copying ../build/pol_bunker/pol_bunker.egg-info to /home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages/pol_bunker-0.0.0-py3.10.egg-info
+[1.514s] running install_scripts
+[1.536s] Installing gotogps_bunker script to /home/ubuntu/dev_ws/src/install/pol_bunker/lib/pol_bunker
+[1.537s] Installing node_bno055 script to /home/ubuntu/dev_ws/src/install/pol_bunker/lib/pol_bunker
+[1.537s] writing list of installed files to '/home/ubuntu/dev_ws/src/build/pol_bunker/install.log'
+[1.597s] Invoked command in '/home/ubuntu/dev_ws/src/pol_bunker' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/src/build/pol_bunker/prefix_override:/home/ubuntu/dev_ws/src/install/pol_bunker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pol_bunker build --build-base /home/ubuntu/dev_ws/src/build/pol_bunker/build install --record /home/ubuntu/dev_ws/src/build/pol_bunker/install.log --single-version-externally-managed
